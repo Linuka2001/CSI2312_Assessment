@@ -11,6 +11,7 @@ namespace CSI2312_FinalAssessment
     {
         static void Task01(int[] data)
         {       
+            Console.WriteLine("Option 01: Final assesment is being selected");
             Console.WriteLine("press any key to continue");
             Console.ReadKey();
         }
@@ -39,7 +40,7 @@ namespace CSI2312_FinalAssessment
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("This is the submission of: [YOUR NAME HERE]\n");
+                Console.WriteLine("This is the submission of: Tellmburabmabarandage Losak Linuka Seneviratne\n");
                 int index = 0;
                 Console.Write("The current data is: [");
                 foreach (int x in data)
